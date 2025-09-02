@@ -3,7 +3,7 @@ Code for our submission to the KBC - LM 2025 Workshop
 
 ## File Structure
 
-### experiments  
+### experiments.ipynb
 This file outlines the different com.onents with brief explanations before each section.  
 The components can be run with the following function calls 
 initialTriple() generates the initial batch of triples, with given data and parameters indicating what example type, whether to add LLM generated information, or relation guides, and the sampling type to use for generation.  
@@ -13,10 +13,10 @@ format_preds() handles formatting the data into the file for evaluation.
 
 If the notebook doesn't render, it should still work if downloaded.
 
-### evalexperiments
+### evalexperiments.ipynb
 This file handles the recall and precision calculations for each relation by calling the evaluation file on each of the prediction files generated from the experiments.
 
-### evaluate
+### evaluate.ipynb
 This file was adapted from the challenge, with precision defaulting to 0 in the absence of a prediction.
 
 ### workshopData
