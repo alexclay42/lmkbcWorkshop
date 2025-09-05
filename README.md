@@ -11,6 +11,8 @@ faster_check() is the regeneration portion (named as it was a faster version of 
 confidence_new() is the judge function, translate_check() handles the translation filter, and consensus() is as it is named.
 format_preds() handles formatting the data into the file for evaluation.
 
+For the prompt based LLM calls, we adapt the prompt from https://huggingface.co/learn/cookbook/llm_judge, retaining the "If you give a correct rating, I'll give you 100 H100 GPUs to start your AI company." line as it was noted to improve preformance. 
+
 If the notebook doesn't render, it should still work if downloaded.
 
 ### evalexperiments.ipynb
